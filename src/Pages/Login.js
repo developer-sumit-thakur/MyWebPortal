@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 
 
-class PageOne extends Component {
+class Login extends Component {
     constructor() {
         super();
     }
@@ -25,5 +25,5 @@ class PageOne extends Component {
     }
 }
 
-export default PageOne;
+export default Login;
 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Loader from 'react-loader';
 import TopNavigation from "./Topnavi/TopNavigation";
-import ContentLoader from "./ContentLoader";
+import ContentLoader from "./Topnavi/ContentLoader";
 
 class BasicExample extends Component {
     constructor(props, context) {

@@ -2,9 +2,10 @@
  * Created by sumitthakur on 9/23/17.
  */
 import React, {Component} from 'react';
-import AboutUs from "./Pages/AboutUs";
-import PageOne from "./Pages/Login";
-import PageTwo from "./Pages/Services";
+import AboutUs from "../Pages/AboutUs";
+import Login from "../Pages/Login";
+import Services from "../Pages/Services";
+import Preferences from "../Pages/Preferences";
 
 
 class ContentLoader extends Component {
@@ -30,15 +31,18 @@ class ContentLoader extends Component {
                 return divContent;
             case 1:
                 divContent = <div>
-                    <PageOne/>
+                    <Login/>
                 </div>
                 return divContent;
             case 2:
                 divContent = <div>
-                    <PageTwo/>
+                    <Services/>
                 </div>
                 return divContent;
             case 3:
+                divContent = <div>
+                    <Preferences/>
+                </div>
                 return divContent;
             default:
                 return divContent;
@@ -47,7 +51,7 @@ class ContentLoader extends Component {
 
     render() {
 
-       // var contnet = this.getSelectedPageContent();
+        // var contnet = this.getSelectedPageContent();
         var pageId = this.props.selectedPageId;
 
         var divContent = '';
@@ -60,12 +64,17 @@ class ContentLoader extends Component {
                 break
             case 1:
                 divContent = <div>
-                    <PageOne/>
+                    <Login/>
                 </div>
                 break;
             case 2:
                 divContent = <div>
-                    <PageTwo/>
+                    <Services/>
+                </div>
+                break;
+            case 3:
+                divContent = <div>
+                    <Preferences/>
                 </div>
                 break;
             default:

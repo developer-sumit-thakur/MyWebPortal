@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 
 
-class PageTwo extends Component {
+class Services extends Component {
     constructor() {
         super();
     }
@@ -18,5 +18,5 @@ class PageTwo extends Component {
     }
 }
 
-export default PageTwo;
+export default Services;
 
