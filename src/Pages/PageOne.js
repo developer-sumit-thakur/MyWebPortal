@@ -9,11 +9,18 @@ class PageOne extends Component {
         super();
     }
 
+    submitLogin(event) {
+        //$('#username').text('');
+        //$('#password').text('');
+        alert('Submitted Successfully.');
+    }
 
     render() {
         return (
             <div className="pages-bar">
-                This is page one.
+                <div className="login-contents"><label>Username</label> <input id="username"/></div>
+                <div className="login-contents"><label>Password</label> <input id="password"/></div>
+                <button className="login-button" onClick={this.submitLogin}>Submit</button>
             </div>);
     }
 }
