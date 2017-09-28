@@ -3,8 +3,8 @@
  */
 import React, {Component} from 'react';
 import AboutUs from "./Pages/AboutUs";
-import PageOne from "./Pages/PageOne";
-import PageTwo from "./Pages/PageTwo";
+import PageOne from "./Pages/Login";
+import PageTwo from "./Pages/Services";
 
 
 class ContentLoader extends Component {

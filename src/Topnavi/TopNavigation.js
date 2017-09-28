@@ -4,7 +4,7 @@
 
 import React, {Component} from 'react';
 
-var TOPBARTABS = ['About Us', 'First Tab', 'Second Tab', 'Third Tab']
+var TOPBARTABS = ['About Us', 'Login', 'Services', 'Preferences']
 
 class TopNavigation extends Component {
     constructor() {

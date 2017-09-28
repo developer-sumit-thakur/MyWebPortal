@@ -13,7 +13,7 @@ class PageTwo extends Component {
     render() {
         return (
             <div className="pages-bar">
-                This is page two.
+                Preferences
             </div>);
     }
 }
