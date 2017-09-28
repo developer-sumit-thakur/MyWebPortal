@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 
 
-class PageTwo extends Component {
+class Preferences extends Component {
     constructor() {
         super();
     }
@@ -13,10 +13,10 @@ class PageTwo extends Component {
     render() {
         return (
             <div className="pages-bar">
-                This is page two.
+                Preferences
             </div>);
     }
 }
 
-export default PageTwo;
+export default Preferences;
 

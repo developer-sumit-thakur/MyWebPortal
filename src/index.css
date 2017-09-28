@@ -16,7 +16,7 @@ body {
 .top-bar {
     height: 100px;
     width: 100%;
-    background: lightcoral;
+    background: gray;
     border-radius: 2px;
     border: 1px solid whitesmoke;
 }
@@ -25,9 +25,11 @@ body {
     color: white;
     font-size: 25px;
     border: 1px solid lightgray;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 15px;
     padding: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-table;
 }
 
 .contents {
